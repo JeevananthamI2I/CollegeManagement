@@ -57,7 +57,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
 	public String deleteDepartment(int id) {
 		departmentRepository.deleteById(id);
-		return "Delete successfull  " + id;
+		return "Delete Successfully  " + id;
 	}
 
 	public DepartmentDTO updateDepartment(DepartmentDTO departmentDTO, int id) throws CollegeManagementException {
